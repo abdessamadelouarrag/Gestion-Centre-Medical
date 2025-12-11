@@ -1,6 +1,6 @@
 <?php
 
-include "connect.php";
+include "connects.php";
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $nom = $_POST["nom"];
